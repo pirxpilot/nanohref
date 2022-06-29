@@ -1,12 +1,14 @@
-# nanohref [![stability][0]][1]
-[![npm version][2]][3] [![build status][4]][5]
-[![downloads][8]][9] [![js-standard-style][10]][11]
+[![NPM version][npm-image]][npm-url]
+[![Build Status][build-image]][build-url]
+[![Dependency Status][deps-image]][deps-url]
 
-Tiny href click handler library.
+# @pirxpilot/nanoraf
+
+Fork of [nanohref]. Tiny href click handler library.
 
 ## Usage
 ```js
-var nanohref = require('nanohref')
+var nanohref = require('@pirxpilot/nanohref')
 
 // Handler automatically attached to window.document
 nanohref(function (location) {
@@ -54,15 +56,13 @@ which defaults to `window.document`.
 ## License
 [MIT](https://tldrlegal.com/license/mit-license)
 
-[0]: https://img.shields.io/badge/stability-experimental-orange.svg?style=flat-square
-[1]: https://nodejs.org/api/documentation.html#documentation_stability_index
-[2]: https://img.shields.io/npm/v/nanohref.svg?style=flat-square
-[3]: https://npmjs.org/package/nanohref
-[4]: https://img.shields.io/travis/choojs/nanohref/master.svg?style=flat-square
-[5]: https://travis-ci.org/choojs/nanohref
-[6]: https://img.shields.io/codecov/c/github/choojs/nanohref/master.svg?style=flat-square
-[7]: https://codecov.io/github/choojs/nanohref
-[8]: http://img.shields.io/npm/dm/nanohref.svg?style=flat-square
-[9]: https://npmjs.org/package/nanohref
-[10]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square
-[11]: https://github.com/feross/standard
+[nanohref]: https://npmjs.org/package/nanohref
+
+[npm-image]: https://img.shields.io/npm/v/@pirxpilot/nanohref
+[npm-url]: https://npmjs.org/package/@pirxpilot/nanohref
+
+[build-url]: https://github.com/pirxpilot/nanohref/actions/workflows/check.yaml
+[build-image]: https://img.shields.io/github/workflow/status/pirxpilot/nanohref/check
+
+[deps-image]: https://img.shields.io/librariesio/release/npm/@pirxpilot/nanohref
+[deps-url]: https://libraries.io/npm/@pirxpilot%2Fnanohref

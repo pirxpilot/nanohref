@@ -1,8 +1,8 @@
 {
-  "name": "nanohref",
+  "name": "@pirxpilot/nanohref",
   "description": "Tiny href click handler library",
-  "repository": "yoshuawuyts/nanohref",
-  "version": "3.1.0",
+  "repository": "pirxpilot/nanohref",
+  "version": "0.0.0",
   "scripts": {
     "deps": "dependency-check . && dependency-check . --extra --no-dev -i nanoassert",
     "start": "node .",
@@ -28,5 +28,8 @@
     "click",
     "anchor"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ]
 }
