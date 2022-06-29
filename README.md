@@ -38,15 +38,12 @@ following conditions:
 - the link has a `download` attribute
 
 :warning: Note that we only handle `target=_blank` if they also have
-`rel="noopener noreferrer"` on them. This is needed to [properly sandbox web
-pages](https://mathiasbynens.github.io/rel-noopener/). Once `noopener` [becomes
-more widespread](http://caniuse.com/#feat=rel-noopener), we can drop
-`noreferrer` too (currently just 60% of browsers in use support it).
+`rel="noopener"` on them. This is needed to [properly sandbox web
+pages](https://mathiasbynens.github.io/rel-noopener/).
 
 ## API
-### `nanohref(handler(location), [rootNode])`
-Create a new anchor click handler. The second argument is for the root node,
-which defaults to `window.document`.
+### `nanohref(handler(location))`
+Create a new anchor click handler.
 
 ## See Also
 - [MDN/link-types](https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types)
