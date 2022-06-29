@@ -2,7 +2,7 @@
   "name": "@pirxpilot/nanohref",
   "description": "Tiny href click handler library",
   "repository": "pirxpilot/nanohref",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "test": "standard"
   },
