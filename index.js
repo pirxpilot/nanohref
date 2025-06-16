@@ -1,11 +1,9 @@
-const assert = require('assert');
+import assert from 'assert';
 
 const safeExternalLink = /noopener/;
 const protocolLink = /^[\w-_]+:/;
 
-module.exports = href;
-
-function href(cb) {
+export default function href(cb) {
   assert(typeof cb === 'function', 'nanohref: cb should be type function');
 
   window.addEventListener('click', e => {

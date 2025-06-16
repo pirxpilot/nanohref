@@ -9,6 +9,8 @@
   "scripts": {
     "test": "make check"
   },
+  "type": "module",
+  "exports": "./index.js",
   "browser": {
     "assert": "@pirxpilot/nanoassert"
   },
