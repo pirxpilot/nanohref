@@ -5,7 +5,7 @@
     "type": "git",
     "url": "git+https://github.com/pirxpilot/nanohref.git"
   },
-  "version": "1.0.0",
+  "version": "2.0.0",
   "scripts": {
     "test": "make check"
   },
