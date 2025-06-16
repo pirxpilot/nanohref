@@ -59,7 +59,7 @@ Create a new anchor click handler.
 [npm-url]: https://npmjs.org/package/@pirxpilot/nanohref
 
 [build-url]: https://github.com/pirxpilot/nanohref/actions/workflows/check.yaml
-[build-image]: https://img.shields.io/github/workflow/status/pirxpilot/nanohref/check
+[build-image]: https://img.shields.io/github/actions/workflow/status/pirxpilot/nanohref/check.yaml?branch=main
 
 [deps-image]: https://img.shields.io/librariesio/release/npm/@pirxpilot/nanohref
 [deps-url]: https://libraries.io/npm/@pirxpilot%2Fnanohref
